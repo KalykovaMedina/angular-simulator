@@ -38,3 +38,4 @@ let users:IUser[] = [{age: 27, name: 'Миша', surname: 'Мельников'},
 let adultUsers = users.filter((user) => {
  return user.age > 18 
 })
+
